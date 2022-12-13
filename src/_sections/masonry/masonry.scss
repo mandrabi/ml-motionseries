@@ -1,0 +1,197 @@
+footer {
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+}
+
+/*
+sprite svg
+*/
+.sprite-svg {
+	display: none;
+}
+
+/*
+title
+*/
+/*
+images wrapper
+*/
+.wrapper {
+	display: block;
+	width: 100%;
+	max-width: 1250px;
+	
+	columns: 1;
+	column-gap: 0;
+	break-inside: avoid;
+	
+	margin: 20px auto 50px;
+	
+	@media (min-width: 600px) {
+		 columns: 2;
+	}
+	
+	@media (min-width: 800px) {
+		 columns: 3;
+	}
+}
+
+
+
+.grid-image {
+	float: left;
+	width: 100%;
+	padding: 10px;
+
+	img  {
+		float: left;
+		width: 100%;
+        border-radius: 24px;
+	}
+}
+
+.zoom-wrapper {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: auto;
+	
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.zoom-wrapper:target {
+	display: flex;
+}
+
+
+@keyframes top-animation {
+    from {
+		top: -100px;
+		opacity: 0;
+	}
+    
+	to {
+		top: 0px;
+		opacity: 1;
+	}
+}
+
+.zoom-wrapper__image {
+  	position: relative;
+	width: 80%;
+	max-width:1000px;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+  	/* animation */
+  	animation-name: top-animation;
+  	animation-duration: 0.5s;
+}
+
+.cell {
+    box-flex: 1;
+    flex: 1 1 auto;
+}
+
+.zoom-image {
+	max-height: 100%;
+}
+
+/*
+arrow navigation
+*/
+.navigation-arrow {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	perspective: 1000px;
+	perspective-origin: 100% 50%;
+}
+
+.navigation-arrow__left {
+	left: 0;
+}
+
+.navigation-arrow__next {
+	right: 0;
+}
+
+.navigation-arrow__image {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	
+	transition: transform 0.3s;
+	
+	.navigation-arrow__prev &{
+		left: 40px;
+		transform: rotateY(90deg);
+    	transform-origin: 0% 50%;
+	}
+	
+	.navigation-arrow__next &{
+		right: 40px;
+		transform: rotateY(-90deg);
+    	transform-origin: 100% 50%;
+	}
+	
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	
+	.navigation-arrow__prev:hover &,
+	.navigation-arrow__next:hover &{
+		transform: rotateY(0deg);
+	}
+
+}
+
+
+
+
+.navigation-arrow__icon {
+	position: relative;
+	display: block;
+	width: 40px;
+	height: 100px;
+	padding: 6px;
+	
+	background-color: #ffffff;
+	
+	& svg.icon {
+		top: 50%;
+		transform: translateY(-50%);
+		
+		fill: #000000;
+		position: relative;
+		stroke-width: 2;
+		stroke: #000000;
+	}
+}
+
+.zoom-wrapper__close {
+	position: fixed;
+	top: 50px;
+	right: 10px;
+	z-index: 1;
+	color: #ffffff;
+	font-size: 40px;
+	text-decoration: none;
+	text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+img {
+	max-width: 100%;
+}

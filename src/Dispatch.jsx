@@ -11,80 +11,78 @@ import TunedReality from "./_sections/tuned_reality/TunedReality";
 import ModernDesign from "./_sections/modern_design/ModernDesign";
 import CabinetBracing from "./_sections/cabinet_bracing/CabinetBracing";
 import Masonry from "./_sections/masonry/Masonry";
+import PreFooter from "./_sections/pre_footer/PreFooter";
 
 export const blocks = [
-{
-lazy: true,
-title: "Legend Reinvented",
-component:
-<LegendReinvented />,
-ref: false,
-},
-{
-lazy: true,
-title: "Features",
-component:
-<Features />,
-ref: false,
-},
-{
-lazy: true,
-title: "Model Lineup",
-component:
-<ModelLineup />,
-ref: false,
-},
-{
-lazy: true,
-title: "Electrostatic Legacy",
-component:
-<ElectrostaticLegacy />,
-ref: false,
-},
-{
-lazy: true,
-title: "Folded Motion Tweeters",
-component:
-<FoldedMotionTweeters />,
-ref: false,
-},
-{
-lazy: true,
-title: "Tuned Reality",
-component:
-<TunedReality />,
-ref: false,
-},
-{
-lazy: true,
-title: "Modern Design",
-component:
-<ModernDesign />,
-ref: false,
-},
-{
-lazy: true,
-title: "Enhanced Cabinet Bracing",
-component:
-<CabinetBracing />,
-ref: false,
-},
-{
-lazy: true,
-title: "Gallery",
-component:
-<Masonry />,
-ref: false,
-},
+  {
+    lazy: true,
+    title: "Legend Reinvented",
+    component: <LegendReinvented />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Features",
+    component: <Features />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Model Lineup",
+    component: <ModelLineup />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Electrostatic Legacy",
+    component: <ElectrostaticLegacy />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Folded Motion Tweeters",
+    component: <FoldedMotionTweeters />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Tuned Reality",
+    component: <TunedReality />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Modern Design",
+    component: <ModernDesign />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Enhanced Cabinet Bracing",
+    component: <CabinetBracing />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Gallery",
+    component: <Masonry />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Pre Footer",
+    component: <PreFooter />,
+    ref: false,
+  },
 ];
 
 export default function Dispatch() {
-const ref = useRef(null);
-return blocks.map((block, index) => (
-<Suspense fallback={""}>
-  <Fragment key={index} ref={ref}>
-    {block.component}
-  </Fragment>
-</Suspense>
-));
+  const ref = useRef(null);
+  return blocks.map((block, index) => (
+    <Suspense fallback={""}>
+      <Fragment key={index} ref={ref}>
+        {block.component}
+      </Fragment>
+    </Suspense>
+  ));
 }

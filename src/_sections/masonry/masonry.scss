@@ -47,7 +47,7 @@ images wrapper
 	img  {
 		float: left;
 		width: 100%;
-        border-radius: 24px;
+        border-radius: 12px;
 	}
 }
 
@@ -174,16 +174,16 @@ arrow navigation
 		top: 50%;
 		transform: translateY(-50%);
 		
-		fill: #000000;
+		fill: #000000 !important;
 		position: relative;
 		stroke-width: 2;
-		stroke: #000000;
+		stroke: #000000 !important;
 	}
 }
 
 .zoom-wrapper__close {
 	position: fixed;
-	top: 50px;
+	top: 70px;
 	right: 10px;
 	z-index: 1;
 	color: #ffffff;

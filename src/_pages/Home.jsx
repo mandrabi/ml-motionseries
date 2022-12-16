@@ -2,6 +2,7 @@ import React, { Suspense, Fragment, useEffect, useState } from "react";
 
 import Dispatch from "../Dispatch";
 import Header from "../_components/header/Header";
+import Footer from "../_components/footer/Footer";
 const Home = () => {
   const [showButton, setShowButton] = useState(false);
 
@@ -27,6 +28,7 @@ const Home = () => {
       <div className="w-full mx-auto">
         <Header />
         <Dispatch />
+        <Footer />
         {showButton && (
           <button
             onClick={scrollToTop}

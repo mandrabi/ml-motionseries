@@ -2,13 +2,13 @@ import React from "react";
 
 const LegendReinvented = () => {
   return (
-    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6">
+    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6">
       <div className="bg-white pt-16 lg:py-10">
         <div className="lg:pl-16 pb-6">
           <h3 className=" pl-1 text-md font-normal leading-6 text-gray-900">
             MartinLogan Motion Series
           </h3>
-          <p className="font-heading mt-2 max-w-4xl text-5xl font-bold text-gray-900">
+          <p className="font-heading mt-2 max-w-4xl lg:text-5xl text-3xl font-bold text-gray-900">
             A Legend Reinvented
           </p>
         </div>

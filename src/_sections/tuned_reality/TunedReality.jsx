@@ -2,9 +2,9 @@ import React from "react";
 
 const TunedReality = () => {
   return (
-    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 sm:space-y-6 mb-6 lg:mt-6 mt-6">
+    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-6 mt-6">
       <div className="lg:pl-16 lg:mt-20">
-        <p className="font-heading mt-2 max-w-4xl text-5xl font-bold text-gray-900">
+        <p className="font-heading mt-2 max-w-4xl lg:text-5xl text-3xl font-bold text-gray-900">
           Tuned for Reality
         </p>
         <p className="font-body mt-3">
@@ -15,10 +15,10 @@ const TunedReality = () => {
           sagittis.
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-6 mt-10">
-        <div className="relative bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/crossover.png')]  bg-cover bg-no-repeat  rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40 lg:h-[50rem] ">
-          <div className="absolute inset-x-0 bottom-0 pb-16 sm:flex sm:justify-end lg:inset-y-0 lg:inset-x-auto lg:w-[33rem] lg:flex-col px-16">
-            <p className="font-heading mt-2 text-5xl font-bold text-gray-50">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 mt-10">
+        <div className="lg:relative bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/crossover.png')]  bg-cover bg-no-repeat  rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40 lg:h-[50rem] ">
+          <div className="lg:absolute inset-x-0 bottom-0 lg:pb-16 lg:py-0 py-6  pb-6 sm:flex sm:justify-end lg:inset-y-0 lg:inset-x-auto lg:w-[33rem] lg:flex-col lg:px-16 px-6">
+            <p className="font-heading mt-2 lg:text-5xl text-3xl font-bold text-gray-50">
               McCracken Tuned <br /> Vojtko Crossover
             </p>
             <p className="font-body mt-3 text-gray-50">
@@ -34,9 +34,9 @@ const TunedReality = () => {
           </div>
         </div>
         <div className="">
-          <div className="relative bg-gray-400 rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40  lg:h-[50rem] ">
-            <div className="absolute inset-x-0 bottom-0 pb-16 sm:flex sm:justify-end lg:inset-y-0 lg:inset-x-auto lg:w-[33rem] lg:flex-col px-16">
-              <p className="font-heading mt-2 text-5xl font-bold text-gray-50">
+          <div className="lg:relative bg-gray-400 rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40  lg:h-[50rem] ">
+            <div className="lg:absolute inset-x-0 bottom-0 lg:pb-16 lg:py-0 py-6 pb-6 sm:flex sm:justify-end lg:inset-y-0 lg:inset-x-auto lg:w-[33rem] lg:flex-col lg:px-16 px-6">
+              <p className="font-heading mt-2 lg:text-5xl text-3xl font-bold text-gray-50">
                 Floor Bounce <br /> Compensation
               </p>
               <p className="font-body mt-3 text-gray-50">
@@ -53,15 +53,15 @@ const TunedReality = () => {
         </div>
       </div>
 
-      <div className="mt-6 relative bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/kevlar-fibre.png')] bg-cover bg-no-repeat h-[35rem]  rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
-        <div className="absolute inset-x-0 bottom-0 grid grid-cols-2 content-end">
+      <div className="mt-6 lg:relative bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/kevlar-fibre.png')] bg-cover bg-no-repeat h-[35rem]  rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
+        <div className="lg:absolute inset-x-0 bottom-0 grid lg:grid-cols-2 grid-cols-1 content-end">
           <div></div>
 
-          <div className="mt-6 rounded-md py-16 text-white sm:mt-0 lg:pl-28 lg:pr-10">
-            <p className="font-heading mt-2 text-5xl font-bold text-gray-50 ">
+          <div className="mt-6 rounded-md lg:py-16 py-6 text-white sm:mt-0 lg:pl-28 pl-0 lg:pr-10 pr-0">
+            <p className="font-heading mt-2 lg:text-5xl text-3xl font-bold text-gray-50 lg:px-0 px-6">
               Folded Motion <br /> Tweeters at Work
             </p>
-            <p className="font-body text-gray-50 mt-6">
+            <p className="font-body text-gray-50 mt-6 lg:px-0 px-6">
               An array of neodymium magnets hold constant charges. A circuit
               trace on the folded polyamide diaphragm, driven by the amplifier,
               is given a charge that continuously reverses in reaction to the

@@ -2,10 +2,10 @@ import React from "react";
 
 const CabinetBracing = () => {
   return (
-    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 sm:space-y-6 mb-6 lg:mt-36 mt-6">
-      <div className="grid grid-cols-2 gap-10 content-end">
+    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-36 mt-6">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 content-end">
         <div className="lg:py-20">
-          <p className="font-heading text-5xl font-bold text-gray-900">
+          <p className="font-heading lg:text-5xl text-3xl font-bold text-gray-900">
             Enhanced Cabinet Bracing
           </p>
           <p className="font-body mt-3">
@@ -16,7 +16,14 @@ const CabinetBracing = () => {
             Motion series has the quietest cabinet yet, allowing all the audio
             technologies to perform at their best.
           </p>
-          <p className="font-heading text-5xl font-bold text-gray-900 mt-6">
+          <div className="lg:hidden block my-6 rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
+            <img
+              className="mt-6"
+              src="https://cdn.pmlsound.com/martinlogan/Motion_Series/luxury-finishes-SatinWhite.png"
+              alt=""
+            />
+          </div>
+          <p className="font-heading lg:text-5xl text-3xl font-bold text-gray-900 mt-6">
             Stealth Bass Port
           </p>
           <p className="font-body mt-3">
@@ -32,7 +39,7 @@ const CabinetBracing = () => {
             any room.
           </p>
         </div>
-        <div className="rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
+        <div className="lg:block hidden rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
           <img
             className="mt-6"
             src="https://cdn.pmlsound.com/martinlogan/Motion_Series/luxury-finishes-SatinWhite.png"
@@ -40,9 +47,18 @@ const CabinetBracing = () => {
           />
         </div>
       </div>
-      <div class="grid-container grid grid-cols-5 pt-20 ">
+      <div class="grid-container grid lg:grid-cols-5 grid-cols-1 lg:pt-20 ">
+        <div class="lg:hidden block item2 col-span-3">
+          <div className="rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
+            <img
+              className="mt-6"
+              src="https://cdn.pmlsound.com/martinlogan/Motion_Series/Motion-Series---Collection-shot---grilles.png"
+              alt=""
+            />
+          </div>
+        </div>
         <div class="item1 col-span-2 mr-10 my-10">
-          <p className="font-heading text-5xl font-bold text-gray-900">
+          <p className="font-heading lg:text-5xl text-3xl font-bold text-gray-900">
             Secure Lock Grilles
           </p>
           <p className="font-body mt-3">
@@ -55,7 +71,7 @@ const CabinetBracing = () => {
             <b>Your Sound, Your Way ---</b>
           </p>
         </div>
-        <div class="item2 col-span-3">
+        <div class="lg:block hidden item2 col-span-3">
           <div className="rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
             <img
               className="mt-6"

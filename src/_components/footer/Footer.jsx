@@ -216,7 +216,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="mt-12 xl:mt-0">
-                <div className="flex space-x-6 md:order-2">
+                <div className="flex lg:space-x-6 space-x-3 md:order-2">
                   {navigation.social.map((item) => (
                     <a
                       key={item.name}

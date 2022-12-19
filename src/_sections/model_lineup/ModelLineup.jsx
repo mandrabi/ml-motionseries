@@ -3,15 +3,25 @@ import React from "react";
 import "./model-lineup.css";
 const ModelLineup = () => {
   return (
-    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6">
+    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6">
+      <div className="relative mt-16 lg:mt-0">
+        <div className="absolute inset-0 flex items-center" aria-hidden="true">
+          <div className="w-full border-t border-gray-300" />
+        </div>
+        <div className="relative flex justify-center">
+          <span className="font-heading font-bold bg-white px-3 lg:text-5xl text-3xl text-gray-900">
+            Motion XT Family
+          </span>
+        </div>
+      </div>
       <div class="motion-xt-family pb-20">
-        <div className="lg:pl-16">
+        {/* <div className="lg:pl-16">
           <p className="font-heading mt-2 max-w-4xl text-5xl font-bold text-gray-900">
             Motion XT Family
           </p>
-        </div>
-        <div class="grid grid-cols-3 gap-4 grid-flow-row grid-">
-          <div class="text-center row-start-1 row-end-4">
+        </div> */}
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-4 lg:grid-flow-row ">
+          <div class="text-center lg:row-start-1 lg:row-end-4">
             <div
               className="flip-card-container max-w-6xl mx-auto rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40"
               style={{ width: "100%", height: "800px" }}
@@ -67,12 +77,12 @@ const ModelLineup = () => {
                   </div>
                 </div>
               </div>
-              <h1 className="font-heading font-normal text-5xl p-6">
+              <h1 className="font-heading font-normal lg:text-5xl text-3xl p-6">
                 Motion XT F200
               </h1>
             </div>
           </div>
-          <div class="text-center row-start-1 row-end-4">
+          <div class="text-center lg:row-start-1 lg:row-end-4">
             <div
               className="flip-card-container max-w-6xl mx-auto bg-white rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40"
               style={{ width: "100%", height: "800px" }}
@@ -128,7 +138,7 @@ const ModelLineup = () => {
                   </div>
                 </div>
               </div>
-              <h1 className="font-heading font-normal text-5xl p-6">
+              <h1 className="font-heading font-normal lg:text-5xl text-3xl p-6">
                 Motion XT F100
               </h1>
             </div>
@@ -189,7 +199,7 @@ const ModelLineup = () => {
                   </div>
                 </div>
               </div>
-              <h1 className="font-heading font-normal text-5xl p-6">
+              <h1 className="font-heading font-normal lg:text-5xl text-3xl p-6">
                 Motion XT B100
               </h1>
             </div>
@@ -250,7 +260,7 @@ const ModelLineup = () => {
                   </div>
                 </div>
               </div>
-              <h1 className="font-heading font-normal text-5xl p-6">
+              <h1 className="font-heading font-normal lg:text-5xl text-3xl p-6">
                 Motion XT C100
               </h1>
             </div>
@@ -258,14 +268,25 @@ const ModelLineup = () => {
         </div>
       </div>
 
-      <div class="motion-family border-t border-gray-300 pt-6">
-        <div className="lg:pl-16">
+      <div className="relative ">
+        <div className="absolute inset-0 flex items-center" aria-hidden="true">
+          <div className="w-full border-t border-gray-300" />
+        </div>
+        <div className="relative flex justify-center">
+          <span className="font-heading bg-white px-3 lg:text-5xl text-3xl font-bold text-gray-900">
+            Motion Family
+          </span>
+        </div>
+      </div>
+
+      <div class="motion-family pt-6">
+        {/* <div className="lg:pl-16">
           <p className="font-heading mt-2 max-w-4xl text-5xl font-bold text-gray-900">
             Motion Family
           </p>
-        </div>
-        <div class="grid grid-cols-3 gap-4 grid-flow-row grid-">
-          <div class="text-center row-start-1 row-end-4">
+        </div> */}
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-4 lg:grid-flow-row">
+          <div class="text-center row-start-1 lg:row-end-4">
             <div
               className="flip-card-container max-w-6xl mx-auto rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40"
               style={{ width: "100%", height: "800px" }}
@@ -321,7 +342,7 @@ const ModelLineup = () => {
                   </div>
                 </div>
               </div>
-              <h1 className="font-heading font-normal text-5xl p-6">
+              <h1 className="font-heading font-normal lg:text-5xl text-3xl p-6">
                 Motion F20
               </h1>
             </div>
@@ -382,7 +403,7 @@ const ModelLineup = () => {
                   </div>
                 </div>
               </div>
-              <h1 className="font-heading font-normal text-5xl p-6">
+              <h1 className="font-heading font-normal lg:text-5xl text-3xl p-6">
                 Motion F10
               </h1>
             </div>
@@ -443,7 +464,7 @@ const ModelLineup = () => {
                   </div>
                 </div>
               </div>
-              <h1 className="font-heading font-normal text-5xl p-6">
+              <h1 className="font-heading font-normal lg:text-5xl text-3xl p-6">
                 Motion B10
               </h1>
             </div>
@@ -504,7 +525,7 @@ const ModelLineup = () => {
                   </div>
                 </div>
               </div>
-              <h1 className="font-heading font-normal text-5xl p-6">
+              <h1 className="font-heading font-normal lg:text-5xl text-3xl p-6">
                 Motion C10
               </h1>
             </div>
@@ -565,7 +586,7 @@ const ModelLineup = () => {
                   </div>
                 </div>
               </div>
-              <h1 className="font-heading font-normal text-5xl p-6">
+              <h1 className="font-heading font-normal lg:text-5xl text-3xl p-6">
                 Motion MP10
               </h1>
             </div>

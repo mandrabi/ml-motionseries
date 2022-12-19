@@ -2,15 +2,15 @@ import React from "react";
 
 const ElectrostaticLegacy = () => {
   return (
-    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6 pt-24">
+    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6 pt-24">
       <div className=" pt-16 lg:py-10">
         <div className=" pb-16 lg:relative lg:z-10 lg:pb-0 rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
-          <div className="lg:pl-16 lg:mt-10">
-            <p className="font-heading mt-2 max-w-4xl text-5xl font-bold text-gray-900">
+          <div className="lg:pl-16 mt-10 ">
+            <p className="font-heading mt-2 max-w-4xl text-center lg:text-left lg:text-5xl text-3xl font-bold text-gray-900">
               MartinLogan's <br /> Electrostatic Legacy
             </p>
           </div>
-          <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-12 lg:gap-8 pl-8">
+          <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-12 lg:gap-8 lg:pl-8">
             <div className="mt-12 lg:col-span-6 lg:m-0 lg:pl-8">
               <div className="px-4 sm:px-6 lg:px-0 lg:pb-10 lg:pt-10">
                 <blockquote className="font-normal font-body">

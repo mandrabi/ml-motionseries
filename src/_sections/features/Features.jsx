@@ -2,10 +2,10 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6">
-      <div className="columns-1 lg:columns-2 gap-4 space-y-4 p-8 mx-auto max-w-6xl">
-        <div className="h-min w-full bg-white pb-16 lg:pb-0 rounded-xl border-solid border-t border-gray-200 shadow-xl shadow-gray-500/40">
-          <div className="py-20 px-16 col-start-2">
+    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6">
+      <div className="columns-1 lg:columns-2 gap-4 space-y-4 md:p-8 p-0 mx-auto max-w-6xl">
+        <div className="h-min w-full bg-white rounded-xl border-solid border-t border-gray-200 shadow-xl shadow-gray-500/40">
+          <div className="lg:py-20 py-6 lg:px-16 px-6 col-start-2">
             <header className="font-heading font-bold text-3xl">
               Controlled Dispersion
             </header>
@@ -25,16 +25,16 @@ const Features = () => {
           />
         </div>
       </div>
-      <div className="columns-1  lg:columns-2 gap-4 space-y-4 p-8 mx-auto max-w-6xl">
-        <div className="h-min w-full lg:pt-36">
+      <div className="columns-1 lg:columns-2 gap-4 space-y-4 md:p-8 mx-auto max-w-6xl">
+        <div className="h-min w-full lg:pt-36 ">
           <img
             src="https://cdn.pmlsound.com/martinlogan/Motion_Series/test_feature.png"
             atl="video"
             className="rounded-xl shadow-xl shadow-gray-500/40"
           />
         </div>
-        <div className="h-min w-full bg-white pb-16 lg:pb-0 rounded-xl border-solid border-t border-gray-200 shadow-xl shadow-gray-500/40">
-          <div className="py-20 px-16 col-start-2">
+        <div className=" h-min w-full bg-white  rounded-xl border-solid border-t border-gray-200 shadow-xl shadow-gray-500/40">
+          <div className="lg:py-20 py-6 lg:px-16 px-6 col-start-2">
             <header className="font-heading font-bold text-3xl">
               Gen2 Folded Motion Tweeter
             </header>
@@ -51,9 +51,9 @@ const Features = () => {
         </div>
       </div>
 
-      <div className="columns-1  lg:columns-2 gap-4 space-y-4 p-8 mx-auto max-w-6xl">
-        <div className="h-min w-full bg-white pb-16 lg:pb-0 rounded-xl border-solid border-t border-gray-200 shadow-xl shadow-gray-500/40">
-          <div className="py-20 px-16 col-start-2">
+      <div className="columns-1  lg:columns-2 gap-4 space-y-4 md:p-8 mx-auto max-w-6xl">
+        <div className="h-min w-full bg-white rounded-xl border-solid border-t border-gray-200 shadow-xl shadow-gray-500/40">
+          <div className="lg:py-20 py-6 lg:px-16 px-6 col-start-2">
             <header className="font-heading font-bold text-3xl">
               Motion Waveguide
             </header>
@@ -75,7 +75,7 @@ const Features = () => {
         </div>
       </div>
 
-      <div className="columns-1  lg:columns-2 gap-4 space-y-4 p-8 mx-auto max-w-6xl">
+      <div className="columns-1  lg:columns-2 gap-4 space-y-4 md:p-8 mx-auto max-w-6xl">
         <div className="h-min w-full lg:pt-28">
           <img
             src="https://cdn.pmlsound.com/martinlogan/Motion_Series/test_feature.png"
@@ -83,8 +83,8 @@ const Features = () => {
             className="rounded-xl shadow-xl shadow-gray-500/40"
           />
         </div>
-        <div className="h-min w-full bg-white pb-16 lg:pb-0 rounded-xl border-solid border-t border-gray-200 shadow-xl shadow-gray-500/40">
-          <div className="py-20 px-16 col-start-2">
+        <div className="h-min w-full bg-white rounded-xl border-solid border-t border-gray-200 shadow-xl shadow-gray-500/40">
+          <div className="lg:py-20 py-6 lg:px-16 px-6 col-start-2">
             <header className="font-heading font-bold text-3xl">
               Quick Foot
             </header>

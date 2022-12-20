@@ -169,11 +169,11 @@ const Footer = () => {
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}>
-                      <span className="text-base text-gray-300 lg:flex gap-3">
+                      <span className="text-base text-gray-300  flex gap-3">
                         <div className="mt-3">
                           <item.icon className="h-6 w-6" aria-hidden="true" />
                         </div>
-                        <div className="text-sm lg:text-base">
+                        <div>
                           {item.name}
                           <br />
                           {item.subText}
@@ -222,7 +222,6 @@ const Footer = () => {
                       key={item.name}
                       href={item.href}
                       className="text-gray-400 hover:text-red-600"
-                      target="_blank"
                     >
                       <span className="sr-only">{item.name}</span>
                       <item.icon className="h-6 w-6" aria-hidden="true" />

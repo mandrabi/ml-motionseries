@@ -45,8 +45,9 @@ function classNames(...classes) {
 const RecentReviews = () => {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-2xl lg:max-w-7xl lg:px-8 px-6">
-        <div className="mt-6 space-y-10 divide-y divide-gray-200 border-gray-200 pb-10">
+      <div className="mx-auto max-w-2xl lg:max-w-7xl lg:px-8">
+        {/* <h2 className="text-lg font-medium text-gray-900">Recent reviews</h2> */}
+        <div className="mt-6 space-y-10 divide-y divide-gray-200 border-t border-b border-gray-200 pb-10">
           {reviews.map((review) => (
             <div
               key={review.id}

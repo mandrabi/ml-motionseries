@@ -75,10 +75,7 @@ const Masonry = (props) => {
             />
           </div>
         </div>
-        <a
-          class="zoom-wrapper__close lg:top-[70px] top-[150px]"
-          href="#masonry-grid"
-        >
+        <a class="zoom-wrapper__close" href="#masonry-grid">
           ×
         </a>
         <a class="navigation-arrow navigation-arrow__next" href="#img2">
@@ -108,10 +105,7 @@ const Masonry = (props) => {
             />
           </div>
         </div>
-        <a
-          class="zoom-wrapper__close lg:top-[70px] top-[150px]"
-          href="#masonry-grid"
-        >
+        <a class="zoom-wrapper__close" href="#masonry-grid">
           ×
         </a>
         <a class="navigation-arrow navigation-arrow__prev" href="#img1">
@@ -154,10 +148,7 @@ const Masonry = (props) => {
             />
           </div>
         </div>
-        <a
-          class="zoom-wrapper__close lg:top-[70px] top-[150px]"
-          href="#masonry-grid"
-        >
+        <a class="zoom-wrapper__close" href="#masonry-grid">
           ×
         </a>
         <a class="navigation-arrow navigation-arrow__prev" href="#img2">
@@ -203,10 +194,7 @@ const Masonry = (props) => {
             />
           </div>
         </div>
-        <a
-          class="zoom-wrapper__close lg:top-[70px] top-[150px]"
-          href="#masonry-grid"
-        >
+        <a class="zoom-wrapper__close" href="#masonry-grid">
           ×
         </a>
         <a class="navigation-arrow navigation-arrow__prev" href="#img3">
@@ -252,10 +240,7 @@ const Masonry = (props) => {
             />
           </div>
         </div>
-        <a
-          class="zoom-wrapper__close lg:top-[70px] top-[150px]"
-          href="#masonry-grid"
-        >
+        <a class="zoom-wrapper__close" href="#masonry-grid">
           ×
         </a>
         <a class="navigation-arrow navigation-arrow__prev" href="#img4">
@@ -301,10 +286,7 @@ const Masonry = (props) => {
             />
           </div>
         </div>
-        <a
-          class="zoom-wrapper__close lg:top-[70px] top-[150px]"
-          href="#masonry-grid"
-        >
+        <a class="zoom-wrapper__close" href="#masonry-grid">
           ×
         </a>
         <a class="navigation-arrow navigation-arrow__prev" href="#img5">
@@ -350,10 +332,7 @@ const Masonry = (props) => {
             />
           </div>
         </div>
-        <a
-          class="zoom-wrapper__close lg:top-[70px] top-[150px]"
-          href="#masonry-grid"
-        >
+        <a class="zoom-wrapper__close" href="#masonry-grid">
           ×
         </a>
         <a class="navigation-arrow navigation-arrow__prev" href="#img6">
@@ -399,10 +378,7 @@ const Masonry = (props) => {
             />
           </div>
         </div>
-        <a
-          class="zoom-wrapper__close lg:top-[70px] top-[150px]"
-          href="#masonry-grid"
-        >
+        <a class="zoom-wrapper__close" href="#masonry-grid">
           ×
         </a>
         <a class="navigation-arrow navigation-arrow__prev" href="#img7">
@@ -448,10 +424,7 @@ const Masonry = (props) => {
             />
           </div>
         </div>
-        <a
-          class="zoom-wrapper__close lg:top-[70px] top-[150px]"
-          href="#masonry-grid"
-        >
+        <a class="zoom-wrapper__close" href="#masonry-grid">
           ×
         </a>
         <a class="navigation-arrow navigation-arrow__prev" href="#img8">

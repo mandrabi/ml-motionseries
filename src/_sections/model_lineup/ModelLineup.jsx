@@ -20,7 +20,7 @@ const ModelLineup = () => {
             Motion XT Family
           </p>
         </div> */}
-        <div class="grid lg:grid-cols-3 grid-cols-1 gap-4 lg:grid-flow-row ">
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-4 grid-flow-row grid-">
           <div class="text-center lg:row-start-1 lg:row-end-4">
             <div
               className="flip-card-container max-w-6xl mx-auto rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40"

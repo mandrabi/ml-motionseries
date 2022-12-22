@@ -118,7 +118,7 @@ const Specifications = () => {
       <div class="font-heading lg:text-5xl text-3xl font-bold">
         Specifications
       </div>
-      <div className="my-8 flex flex-col">
+      <div className="my-8 flex flex-col px-4 sm:px-6 lg:px-8">
         <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
             <div className="overflow-hidden">

@@ -3,8 +3,8 @@ import React from "react";
 const ElectrostaticLegacy = () => {
   return (
     <div className="max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-16">
-      <div className="pt-16 lg:py-10">
-        <div className=" lg:pb-16 lg:relative pb-0 rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
+      <div className="pt-16 lg:pt-24 lg:py-10">
+        <div className="pb-0.5 lg:relative rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
           <div className="lg:pl-16 mt-10 ">
             <p className="font-heading mt-2 max-w-4xl text-center lg:text-left lg:text-5xl text-3xl font-bold text-gray-900">
               MartinLogan's <br /> Electrostatic Legacy

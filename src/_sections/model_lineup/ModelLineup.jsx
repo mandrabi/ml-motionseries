@@ -211,11 +211,11 @@ const ModelLineup = () => {
             >
               <div class="flip-card ">
                 <div class="card-front rounded-xl">
-                  <figure className="bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_MP10_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <figure className="bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_XT_C100_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
                 </div>
 
                 <div className="card-back bg-gray-400 rounded-xl">
-                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_C10_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_XT_C100_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
                   <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer interdum orci elit, ac convallis nulla condimentum

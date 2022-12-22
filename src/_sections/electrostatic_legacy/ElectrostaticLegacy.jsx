@@ -2,9 +2,9 @@ import React from "react";
 
 const ElectrostaticLegacy = () => {
   return (
-    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6 pt-24">
-      <div className=" pt-16 lg:py-10">
-        <div className=" pb-16 lg:relative lg:pb-0 rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
+    <div className="max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-16">
+      <div className="pt-16 lg:py-10">
+        <div className=" lg:pb-16 lg:relative pb-0 rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
           <div className="lg:pl-16 mt-10 ">
             <p className="font-heading mt-2 max-w-4xl text-center lg:text-left lg:text-5xl text-3xl font-bold text-gray-900">
               MartinLogan's <br /> Electrostatic Legacy
@@ -57,7 +57,7 @@ const ElectrostaticLegacy = () => {
                 </blockquote>
               </div>
             </div>
-            <div className="relative lg:col-span-6 lg:-my-96 -mr-5">
+            <div className="lg:block hidden relative lg:col-span-6 lg:-my-96 -mr-5">
               <div
                 aria-hidden="true"
                 className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"
@@ -71,6 +71,13 @@ const ElectrostaticLegacy = () => {
                   />
                 </div>
               </div>
+            </div>
+            <div className="lg:hidden block">
+              <img
+                className="lg:ml-6 object-cover lg:scale-[.85] rounded-xl"
+                src="https://cdn.pmlsound.com/martinlogan/Motion_Series/electrostatic_legacy_420.png"
+                alt=""
+              />
             </div>
           </div>
         </div>

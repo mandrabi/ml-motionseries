@@ -11,6 +11,13 @@ const Features = () => {
   return (
     <div className="max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6">
       <div className="columns-1 lg:columns-2 gap-4 space-y-4 md:p-8 p-0 mx-auto max-w-6xl">
+        <div className="lg:hidden block h-min w-full lg:pt-16">
+          <img
+            src="https://cdn.pmlsound.com/martinlogan/Motion_Series/test_feature.png"
+            atl="video"
+            className="rounded-xl shadow-xl shadow-gray-500/40 "
+          />
+        </div>
         <div className="h-min w-full bg-white rounded-xl border-solid border-t border-gray-200 shadow-xl shadow-gray-500/40">
           <div className="lg:py-20 py-6 lg:px-16 px-6 col-start-2">
             <header className="font-heading font-bold text-3xl">
@@ -24,7 +31,7 @@ const Features = () => {
             <p className="font-body font-bold mt-10">Learn More</p>
           </div>
         </div>
-        <div className="h-min w-full lg:pt-16">
+        <div className="lg:block hidden h-min w-full lg:pt-16">
           <img
             src="https://cdn.pmlsound.com/martinlogan/Motion_Series/test_feature.png"
             atl="video"
@@ -59,6 +66,22 @@ const Features = () => {
       </div>
 
       <div className="columns-1  lg:columns-2 gap-4 space-y-4 md:p-8 mx-auto max-w-6xl">
+        <div className="lg:hidden block h-min w-full lg:pt-24">
+          <video
+            id="videoMachine"
+            width="100%"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="z-0 lg:scale-100 rounded-xl"
+          >
+            <source
+              src="https://cdn.pmlsound.com/martinlogan/Motion_Series/ML_waveguide_site_1.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
         <div className="h-min w-full bg-white rounded-xl border-solid border-t border-gray-200 shadow-xl shadow-gray-500/40">
           <div className="lg:py-20 py-6 lg:px-16 px-6 col-start-2">
             <header className="font-heading font-bold text-3xl">
@@ -73,7 +96,7 @@ const Features = () => {
             <p className="font-body font-bold mt-10">Learn More</p>
           </div>
         </div>
-        <div className="h-min w-full lg:pt-24">
+        <div className="lg:block hidden h-min w-full lg:pt-24">
           <video
             id="videoMachine"
             width="100%"

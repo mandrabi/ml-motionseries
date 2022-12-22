@@ -30,7 +30,7 @@ const downloadFiles = [
     id: 4,
     title: "Motion XT C100",
     imageSrc:
-      "https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_MP10_satin-white_product-image.png",
+      "https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_XT_C100_satin-white_product-image.png",
     specs: "",
     drawing: "",
   },
@@ -52,7 +52,7 @@ const downloadFiles = [
   },
   {
     id: 7,
-    title: "Motio C10",
+    title: "Motion C10",
     imageSrc:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_C10_satin-white_product-image.png",
     specs: "",
@@ -68,7 +68,7 @@ const downloadFiles = [
   },
   {
     id: 9,
-    title: "Motion MP10s",
+    title: "Motion MP10",
     imageSrc:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_MP10_satin-white_product-image.png",
     specs: "",
@@ -85,7 +85,7 @@ const Downloads = () => {
       <div class="font-heading lg:text-5xl text-3xl font-bold">Downloads</div>
       <div className="bg-white">
         <div className="">
-          <div className="mt-6 grid grid-cols-2 gap-1 md:grid-cols-3 lg:mt-8">
+          <div className="mt-6 grid grid-cols-1 gap-1 md:grid-cols-3 lg:mt-8">
             {downloadFiles.map((_) => {
               return (
                 <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">

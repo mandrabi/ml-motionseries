@@ -60,7 +60,7 @@ const LegendReinvented = () => {
                 </blockquote>
               </div>
             </div>
-            <div className="relative lg:-my-20">
+            <div className="lg:block hidden relative lg:-my-20">
               <div
                 aria-hidden="true"
                 className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"

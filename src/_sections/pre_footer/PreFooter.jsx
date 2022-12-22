@@ -5,13 +5,11 @@ import News from "../../_components/news/News";
 import RecentReviews from "../../_components/recent_reviews/RecentReviews";
 const PreFooter = () => {
   return (
-    <div>
-      <Accordion
-        specs={<Specifications />}
-        news={<News />}
-        reviews={<RecentReviews />}
-      />
-    </div>
+    <Accordion
+      specs={<Specifications />}
+      news={<News />}
+      reviews={<RecentReviews />}
+    />
   );
 };
 

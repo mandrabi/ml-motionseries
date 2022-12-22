@@ -96,7 +96,7 @@ const Features = () => {
           <VisibilitySensor
             onChange={onVisibilityChange}
             offset={{
-              top: 100,
+              top: 10,
             }}
             delayedCall
             partialVisibility

@@ -12,6 +12,8 @@ import ModernDesign from "./_sections/modern_design/ModernDesign";
 import CabinetBracing from "./_sections/cabinet_bracing/CabinetBracing";
 import Masonry from "./_sections/masonry/Masonry";
 import PreFooter from "./_sections/pre_footer/PreFooter";
+import Specifications from "./_components/specifications/Specifications";
+import Downloads from "./_sections/downloads/Downloads";
 
 export const blocks = [
   {
@@ -66,6 +68,18 @@ export const blocks = [
     lazy: true,
     title: "Gallery",
     component: <Masonry />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Specs",
+    component: <Specifications />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Downloads",
+    component: <Downloads />,
     ref: false,
   },
   {

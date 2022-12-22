@@ -12,7 +12,7 @@ const LegendReinvented = () => {
             A Legend Reinvented
           </p>
         </div>
-        <div className="bg-white pb-16 lg:relative lg:z-10 lg:pb-0 rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
+        <div className="bg-white pb-16 lg:relative lg:pb-0 rounded-xl border-solid border-t border-gray-200 shadow-md shadow-gray-500/40">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
             <div className="mt-12 lg:col-span-2 lg:m-0 lg:pl-8">
               <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
@@ -65,7 +65,7 @@ const LegendReinvented = () => {
                 aria-hidden="true"
                 className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"
               />
-              <div className="lg:block hidden mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
+              <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
                 <div className="aspect-w-10 aspect-h-6 overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
                   <img
                     className="lg:ml-6 object-cover lg:scale-110 mt-6"

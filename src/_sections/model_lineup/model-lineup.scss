@@ -13,13 +13,6 @@
     perspective: 1000px;
   }
   
-  @media only screen and (max-width: 600px) {
-    .flip-card-container {
-      margin-bottom: 20px;
-      margin-left: 0px;
-    }
-  }
-
   /* .flip-card */
   .flip-card {
     width: inherit;

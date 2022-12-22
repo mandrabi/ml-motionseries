@@ -7,7 +7,7 @@ const newsAndAnnouncements = [
     date: "12/07/2022",
     headline: "Headline Here",
     content:
-      "Lorem ipsum dolor sit amet consectetur. Interdum phasellus volutpat nam in mauris sed gravida risus sollicitudin. Eu mi aenean ut duis. Aenean malesuada augue massa faucibus ac.",
+      "<p class='tracking-tighter'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget elementum leo. Aliquam imperdiet tortor eu aliquet blandit. In at egestas leo.</p>",
     button: "",
   },
   {
@@ -16,7 +16,7 @@ const newsAndAnnouncements = [
     date: "12/07/2022",
     headline: "Headline Here",
     content:
-      "Lorem ipsum dolor sit amet consectetur. Interdum phasellus volutpat nam in mauris sed gravida risus sollicitudin. Eu mi aenean ut duis. Aenean malesuada augue massa faucibus ac.",
+      "<p class='tracking-tighter'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget elementum leo. Aliquam imperdiet tortor eu aliquet blandit. In at egestas leo.</p>",
     button: "",
   },
   {
@@ -25,7 +25,7 @@ const newsAndAnnouncements = [
     date: "12/07/2022",
     headline: "Headline Here",
     content:
-      "Lorem ipsum dolor sit amet consectetur. Interdum phasellus volutpat nam in mauris sed gravida risus sollicitudin. Eu mi aenean ut duis. Aenean malesuada augue massa faucibus ac.",
+      "<p class='tracking-tighter'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget elementum leo. Aliquam imperdiet tortor eu aliquet blandit. In at egestas leo.</p>",
     button: "",
   },
 ];
@@ -52,23 +52,28 @@ const News = () => {
             </div>
             <div className="mt-12 lg:col-span-2 lg:m-0 lg:pl-8">
               <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 lg:py-6">
-                <blockquote>
+                <div>
                   <div className="mb-6">
-                    <p className="mt-6 text-md font-normal text-white">
+                    <p className="mt-6 text-md font-normal font-body text-white">
                       {_.date}
                     </p>
                     <p className="font-heading text-4xl font-bold text-white">
                       {_.headline}
                     </p>
-                    <p className="mt-6 font-body text-lg font-normal text-white leading-6">
-                      {_.content}
+                    <p
+                      className="mt-6 font-body text-sm lg:text-lg text-white tracking-tightest"
+                      dangerouslySetInnerHTML={{
+                        __html: _.content,
+                      }}
+                    >
+                      {/* {_.content} */}
                     </p>
 
-                    <button className="mt-6 border px-4 py-2 rounded-lg border-1 text-white border-white">
+                    <button className="mt-6 border px-4 py-2 rounded-lg border-1 text-white border-white hover:bg-white hover:text-gray-900">
                       Read more
                     </button>
                   </div>
-                </blockquote>
+                </div>
               </div>
             </div>
           </div>

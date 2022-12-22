@@ -212,7 +212,6 @@ arrow navigation
 
 .zoom-wrapper__close {
   position: fixed;
-  top: 150px;
   right: 10px;
   z-index: 1;
   color: #ffffff;

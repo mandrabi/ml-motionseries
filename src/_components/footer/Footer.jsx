@@ -38,7 +38,7 @@ const navigation = {
     },
   ],
   support: [
-    { name: "Company", href: "#" },
+    { name: "Company History", href: "#" },
     { name: "News, Press & Images", href: "#" },
     { name: "Tour MartinLogan", href: "#" },
     { name: "Truth in Sound", href: "#" },

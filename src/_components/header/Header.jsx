@@ -37,7 +37,7 @@ const Header = () => {
               class="absolute w-auto h-max max-w-none"
             >
               <source
-                src="https://cdn.pmlsound.com/paradigm/Paradigm_XR/opening_video_alternate3.mp4"
+                src="https://cdn.pmlsound.com/martinlogan/Motion_Series/Motion_Tease_Final_121.mp4"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
@@ -203,9 +203,9 @@ const Header = () => {
             <div className="flex-1" />
             <div className="w-full flex-1" />
           </div>
-          <div className="mx-auto max-w-7xl px-4 sm:px-6">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 mt-56">
             <img
-              className="relative r mx-auto md:max-w-7xl max-w-xs"
+              className="relative mx-auto md:max-w-4xl max-w-xs"
               src="https://cdn.pmlsound.com/martinlogan/Motion_Series/hero_group_shot.png"
               alt="App screenshot"
             />

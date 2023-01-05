@@ -29,7 +29,7 @@ const ModelLineup = () => {
               <div class="flip-card ">
                 <div class="card-front rounded-xl">
                   <img
-                    src="https://cdn.pmlsound.com/martinlogan/Motion_Series/F200-SatinWhite-Front3qtr-NoGrille.png"
+                    src="https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_card_assets/F200-SatinWhite-Front3qtr-NoGrille.png"
                     className="scale-[2.0]"
                   ></img>
                 </div>
@@ -91,11 +91,14 @@ const ModelLineup = () => {
             >
               <div class="flip-card ">
                 <div class="card-front rounded-xl">
-                  <figure className="bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_XT_F100_satin-white_product-image_2.png')] bg-cover bg-no-repeat"></figure>
+                  <img
+                    src="https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_card_assets/F100-SatinWhite-Front3qtr-NoGrille.png"
+                    className="scale-[2.0]"
+                  ></img>
                 </div>
 
                 <div className="card-back bg-gray-400 rounded-xl">
-                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_XT_F100_satin-white_product-image_2.png')] bg-cover bg-no-repeat"></figure>
+                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_series_cards-rear_lifestyles/Motion-XT-f100-card-rear.png')] bg-cover bg-no-repeat"></figure>
                   <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
                     Step-up XT series performance upgrades with triple bass
                     drivers make for a compelling option for a high-performance
@@ -152,11 +155,14 @@ const ModelLineup = () => {
             >
               <div class="flip-card ">
                 <div class="card-front rounded-xl">
-                  <figure className="bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_XT_B100_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <img
+                    src="https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_card_assets/B100-SatinWhite-Front3qtr-NoGrille.png"
+                    className="scale-[1.0]"
+                  ></img>
                 </div>
 
                 <div className="card-back bg-gray-400 rounded-xl">
-                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_XT_B100_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_series_cards-rear_lifestyles/Motion-XT-b100-card-rear.png')] bg-cover bg-no-repeat"></figure>
                   <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
                     Our best bookshelf speaker for those wanting maximum
                     performance without moving to a tower speaker.
@@ -212,11 +218,14 @@ const ModelLineup = () => {
             >
               <div class="flip-card ">
                 <div class="card-front rounded-xl">
-                  <figure className="bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_XT_C100_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <img
+                    src="https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_card_assets/C100-SatinWhite-Front3qtr-NoGrille.png"
+                    className="scale-[1.0]"
+                  ></img>
                 </div>
 
                 <div className="card-back bg-gray-400 rounded-xl">
-                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_XT_C100_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_series_cards-rear_lifestyles/Motion-XT-c100-card-rear.png')] bg-cover bg-no-repeat"></figure>
                   <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
                     The ideal performance-focused center channel for any Motion
                     home theatre system.
@@ -293,11 +302,14 @@ const ModelLineup = () => {
             >
               <div class="flip-card ">
                 <div class="card-front rounded-xl">
-                  <figure className="bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_F20_satin-white_product-image_2.png')] bg-cover bg-no-repeat"></figure>
+                  <img
+                    src="https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_card_assets/F20-SatinWhite-Front3qtr-NoGrille.png"
+                    className="scale-[2.0]"
+                  ></img>
                 </div>
 
                 <div className="card-back bg-gray-400 rounded-xl">
-                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_F20_satin-white_product-image_2.png')] bg-cover bg-no-repeat"></figure>
+                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_series_cards-rear_lifestyles/Motion-f20-card-rear.png')] bg-cover bg-no-repeat"></figure>
                   <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
                     The flagship of the Motion range delivers even more
                     performance while keeping a very manageable footprint.
@@ -353,11 +365,14 @@ const ModelLineup = () => {
             >
               <div class="flip-card ">
                 <div class="card-front rounded-xl">
-                  <figure className="bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_F10_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <img
+                    src="https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_card_assets/F10-SatinWhite-Front3qtr-NoGrille.png"
+                    className="scale-[1.3]"
+                  ></img>
                 </div>
 
                 <div className="card-back bg-gray-400 rounded-xl">
-                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_F10_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_series_cards-rear_lifestyles/Motion-f10-card-rear.png')] bg-cover bg-no-repeat"></figure>
                   <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
                     Our most compact tower model, F10, absolutely defies
                     expectations with its tremendous performance and compact
@@ -414,11 +429,14 @@ const ModelLineup = () => {
             >
               <div class="flip-card ">
                 <div class="card-front rounded-xl">
-                  <figure className="bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_B10_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <img
+                    src="https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_card_assets/B10-SatinWhite-Front3qtr-Stand-NoGrille.png"
+                    className="scale-[0.9]"
+                  ></img>
                 </div>
 
                 <div className="card-back bg-gray-400 rounded-xl">
-                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_B10_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_series_cards-rear_lifestyles/Motion-b10-card-rear.png')] bg-cover bg-no-repeat"></figure>
                   <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
                     Redefining what to expect from a compact bookshelf speaker.
                   </p>
@@ -473,11 +491,14 @@ const ModelLineup = () => {
             >
               <div class="flip-card ">
                 <div class="card-front rounded-xl">
-                  <figure className="bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_C10_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <img
+                    src="https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_card_assets/C10-SatinWhite-Front-NoGrille.png"
+                    className="scale-[1.3]"
+                  ></img>
                 </div>
 
                 <div className="card-back bg-gray-400 rounded-xl">
-                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_C10_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_series_cards-rear_lifestyles/Motion-c10-card-rear.png')] bg-cover bg-no-repeat"></figure>
                   <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
                     The ideal compact center channel option to deliver crystal
                     clear dialogue perfectly complements your Motion home
@@ -534,11 +555,14 @@ const ModelLineup = () => {
             >
               <div class="flip-card ">
                 <div class="card-front rounded-xl">
-                  <figure className="bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_MP10_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <img
+                    src="https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_card_assets/MP10-SatinWhite-Front3qtr-NoGrille.png"
+                    className="scale-[1.1]"
+                  ></img>
                 </div>
 
                 <div className="card-back bg-gray-400 rounded-xl">
-                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_MP10_satin-white_product-image.png')] bg-cover bg-no-repeat"></figure>
+                  <figure className="mix-blend-multiply bg-[url('https://cdn.pmlsound.com/martinlogan/Motion_Series/motion_series_cards-rear_lifestyles/Motion-mp10-card-rear.png')] bg-cover bg-no-repeat"></figure>
                   <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
                     Its incredible versatility delivers exceptional performance
                     wherever you need it.

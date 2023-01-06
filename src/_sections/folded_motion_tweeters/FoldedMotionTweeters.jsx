@@ -6,7 +6,7 @@ const FoldedMotionTweeters = () => {
       <div className="relative overflow-hidden rounded-xl lg:h-[35rem]">
         <div className="absolute inset-0">
           <img
-            src="https://cdn.pmlsound.com/martinlogan/Motion_Series/FMT_XT_tweeter.png"
+            src="https://cdn.pmlsound.com/martinlogan/Motion_Series/emt-xt-tweeter-22.png"
             alt=""
             className="h-full w-full object-cover object-center"
           />
@@ -18,7 +18,7 @@ const FoldedMotionTweeters = () => {
             <p className="font-heading mt-2 lg:text-5xl text-3xl font-bold text-gray-50">
               Folded Motion <br /> Tweeters at Work.
             </p>
-            <p className="font-body text-gray-50 mt-6">
+            <p className="font-body text-gray-50 my-6">
               An array of neodymium magnets hold constant charges. A circuit
               trace on the folded polyamide diaphragm, driven by the amplifier,
               is given a charge that continuously reverses in reaction to the

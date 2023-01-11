@@ -7,6 +7,11 @@ const image1 =
 const image2 =
   "https://cdn.pmlsound.com/martinlogan/Motion_Series/Motion-F20-C10-MP10-overlay.png";
 
+const image3 =
+  "https://cdn.pmlsound.com/martinlogan/ml-motion-xt-banner-overlay-mobile.png";
+const image4 =
+  "https://cdn.pmlsound.com/martinlogan/ml-motion-banner-overlay-mobile.png";
+
 const motionXTModels = [
   {
     id: 1,
@@ -19,7 +24,7 @@ const motionXTModels = [
     blurb:
       "Our Ultimate Performance Motion XT tower sets a new bar for performance in its class and beyond.",
     add_to_cart_icon:
-      "https://cdn.pmlsound.com/martinlogan/Motion_Series/add-to-cart-icon_.gif",
+      "https://cdn.pmlsound.com/martinlogan/information-gif.gif",
     find_a_dealer_icon:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/dealer-locator-icon_.gif",
     extra_classes: "text-center lg:row-start-1 lg:row-end-4 mb-[85px]",
@@ -36,7 +41,7 @@ const motionXTModels = [
     blurb:
       "Step-up XT series performance upgrades with triple bass drivers make for a compelling option for a high-performance tower speaker.",
     add_to_cart_icon:
-      "https://cdn.pmlsound.com/martinlogan/Motion_Series/add-to-cart-icon_.gif",
+      "https://cdn.pmlsound.com/martinlogan/information-gif.gif",
     find_a_dealer_icon:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/dealer-locator-icon_.gif",
     extra_classes: "text-center lg:row-start-1 lg:row-end-4 mb-[85px]",
@@ -53,7 +58,7 @@ const motionXTModels = [
     blurb:
       "Our best bookshelf speaker for those wanting maximum performance without moving to a tower speaker.",
     add_to_cart_icon:
-      "https://cdn.pmlsound.com/martinlogan/Motion_Series/add-to-cart-icon_.gif",
+      "https://cdn.pmlsound.com/martinlogan/information-gif.gif",
     find_a_dealer_icon:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/dealer-locator-icon_.gif",
     extra_classes: "text-center mb-[85px]",
@@ -70,7 +75,7 @@ const motionXTModels = [
     blurb:
       "The ideal performance-focused center channel for any Motion home theatre system.",
     add_to_cart_icon:
-      "https://cdn.pmlsound.com/martinlogan/Motion_Series/add-to-cart-icon_.gif",
+      "https://cdn.pmlsound.com/martinlogan/information-gif.gif",
     find_a_dealer_icon:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/dealer-locator-icon_.gif",
     extra_classes: "text-center",
@@ -90,7 +95,7 @@ const motionSeriesModels = [
     blurb:
       "The flagship of the Motion range delivers even more performance while keeping a very manageable footprint.",
     add_to_cart_icon:
-      "https://cdn.pmlsound.com/martinlogan/Motion_Series/add-to-cart-icon_.gif",
+      "https://cdn.pmlsound.com/martinlogan/information-gif.gif",
     find_a_dealer_icon:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/dealer-locator-icon_.gif",
     extra_classes: "text-center row-start-1 lg:row-end-4 mb-[85px]",
@@ -107,7 +112,7 @@ const motionSeriesModels = [
     blurb:
       "Our most compact tower model, F10, absolutely defies expectations with its tremendous performance and compact size.",
     add_to_cart_icon:
-      "https://cdn.pmlsound.com/martinlogan/Motion_Series/add-to-cart-icon_.gif",
+      "https://cdn.pmlsound.com/martinlogan/information-gif.gif",
     find_a_dealer_icon:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/dealer-locator-icon_.gif",
     extra_classes: "text-center mb-[85px]",
@@ -123,7 +128,7 @@ const motionSeriesModels = [
     name: "Motion B10",
     blurb: "Redefining what to expect from a compact bookshelf speaker.",
     add_to_cart_icon:
-      "https://cdn.pmlsound.com/martinlogan/Motion_Series/add-to-cart-icon_.gif",
+      "https://cdn.pmlsound.com/martinlogan/information-gif.gif",
     find_a_dealer_icon:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/dealer-locator-icon_.gif",
     extra_classes: "text-center mb-[85px]",
@@ -140,7 +145,7 @@ const motionSeriesModels = [
     blurb:
       "The ideal compact center channel option to deliver crystal clear dialogue perfectly complements your Motion home theatre system.",
     add_to_cart_icon:
-      "https://cdn.pmlsound.com/martinlogan/Motion_Series/add-to-cart-icon_.gif",
+      "https://cdn.pmlsound.com/martinlogan/information-gif.gif",
     find_a_dealer_icon:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/dealer-locator-icon_.gif",
     extra_classes: "text-center mb-[85px]",
@@ -157,7 +162,7 @@ const motionSeriesModels = [
     blurb:
       "Its incredible versatility delivers exceptional performance wherever you need it.",
     add_to_cart_icon:
-      "https://cdn.pmlsound.com/martinlogan/Motion_Series/add-to-cart-icon_.gif",
+      "https://cdn.pmlsound.com/martinlogan/information-gif.gif",
     find_a_dealer_icon:
       "https://cdn.pmlsound.com/martinlogan/Motion_Series/dealer-locator-icon_.gif",
     extra_classes: "text-center mb-[85px]",
@@ -167,7 +172,7 @@ const motionSeriesModels = [
 const ModelLineup = () => {
   return (
     <>
-      <div className="text-center bg-gray-400 mt-16">
+      <div className="text-center bg-gray-400 mt-16 lg:block hidden">
         <Parallax
           bgImage={image1}
           strength={500}
@@ -190,6 +195,25 @@ const ModelLineup = () => {
           </div>
         </Parallax>
       </div>
+
+      <div className="text-center bg-gray-400 mt-16 lg:hidden block bg-[url('https://cdn.pmlsound.com/martinlogan/ml-motion-xt-banner-overlay-mobile.png')]">
+        <div>
+          <div className="font-heading text-white py-20 px-6">
+            <h2 className="lg:text-7xl text-3xl font-bold">
+              {" "}
+              Motion XT Family
+            </h2>
+            <p className="font-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
+              porttitor quis nisl turpis eget vulputate turpis at. Et ut cras
+              rutrum viverra. Non vel amet, pharetra, faucibus viverra mi
+              sollicitudin id mattis. Aliquet sed viverra dictum nunc ultrices
+              dui dictum ut sagittis.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="">
         <div className="motion-xt-family pb-0 max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6">
           <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 grid-flow-row grid-">
@@ -207,34 +231,17 @@ const ModelLineup = () => {
 
                       <div className="card-back bg-gray-400 rounded-xl">
                         <figure className={_.back_image_url}></figure>
-                        <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
+                        <p className="font-body text-white text-sm text-center max-w-xs mx-auto pt-20">
                           {_.blurb}
                         </p>
 
-                        <div className="max-w-2xl mx-auto flex py-16">
-                          <div className="space-y-4 ">
-                            <div className="space-y-2 ml-2">
-                              <div className="text-xs font-medium lg:text-sm">
-                                <button
-                                  type="button"
-                                  className="rounded-full inline-flex items-center justify-center whitespace-nowrap border border-transparent bg-red-600 px-4 py-2 text-base font-normal text-white shadow-sm hover:bg-red-700"
-                                >
-                                  <img
-                                    className="-ml-0.5 mr-2 mx-auto h-6 w-6 rounded-lg lg:h-8 lg:w-8 backdrop-filter backdrop-blur-md bg-white"
-                                    src={_.add_to_cart_icon}
-                                    alt=""
-                                  />
-                                  Add to Cart
-                                </button>
-                              </div>
-                            </div>
-                          </div>
+                        <div className="max-w-2xl mx-auto py-16">
                           <div className="space-y-4">
-                            <div className="space-y-2 ml-3">
+                            <div className="space-y-2">
                               <div className="text-xs font-medium lg:text-sm">
                                 <button
                                   type="button"
-                                  className="ml-8 rounded-full inline-flex items-center justify-center whitespace-nowrap border border-transparent bg-red-600 px-4 py-2 text-base font-normal text-white shadow-sm hover:bg-red-700"
+                                  className="inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-gray-50 px-4 py-2 text-base font-normal text-red-500 shadow-sm hover:bg-red-600 hover:text-gray-50"
                                 >
                                   <img
                                     className="-ml-0.5 mr-2 mx-auto h-6 w-6 rounded-lg lg:h-8 lg:w-8 backdrop-filter backdrop-blur-md bg-white"
@@ -242,6 +249,23 @@ const ModelLineup = () => {
                                     alt=""
                                   />
                                   Find a Dealer
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="space-y-4 mt-6">
+                            <div className="space-y-2">
+                              <div className="text-xs font-medium lg:text-sm">
+                                <button
+                                  type="button"
+                                  className="inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-gray-50 px-4 py-2 text-base font-normal text-red-500 shadow-sm hover:bg-red-600 hover:text-gray-50"
+                                >
+                                  <img
+                                    className="-ml-0.5 mr-2 mx-auto h-6 w-6 rounded-lg lg:h-8 lg:w-8 backdrop-filter backdrop-blur-md bg-white"
+                                    src={_.add_to_cart_icon}
+                                    alt=""
+                                  />
+                                  Learn More
                                 </button>
                               </div>
                             </div>
@@ -259,7 +283,7 @@ const ModelLineup = () => {
           </div>
         </div>
 
-        <div className="text-center bg-gray-400 mt-16">
+        <div className="text-center bg-gray-400 mt-16 lg:block hidden">
           <Parallax
             bgImage={image2}
             strength={500}
@@ -283,6 +307,21 @@ const ModelLineup = () => {
           </Parallax>
         </div>
 
+        <div className="text-center bg-gray-400 mt-24 lg:hidden block bg-[url('https://cdn.pmlsound.com/martinlogan/ml-motion-banner-overlay-mobile.png')]">
+          <div>
+            <div className="font-heading text-white py-20 px-6">
+              <h2 className="lg:text-7xl text-3xl font-bold"> Motion Family</h2>
+              <p className="font-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
+                porttitor quis nisl turpis eget vulputate turpis at. Et ut cras
+                rutrum viverra. Non vel amet, pharetra, faucibus viverra mi
+                sollicitudin id mattis. Aliquet sed viverra dictum nunc ultrices
+                dui dictum ut sagittis.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="motion-family pt-6 pb-0 max-w-7xl mx-auto space-y-8 sm:px-6 px-6 sm:space-y-6 mb-6 lg:mt-16 mt-6">
           <div className="grid lg:grid-cols-3 grid-cols-1 gap-4 lg:grid-flow-row">
             {motionSeriesModels.map((_) => {
@@ -297,36 +336,19 @@ const ModelLineup = () => {
                         <img src={_.front_image_url} className={_.scale}></img>
                       </div>
 
-                      <div className="card-back bg-gray-400 rounded-xl">
+                      <div className="card-back bg-gray-400 rounded-xl ">
                         <figure className={_.back_image_url}></figure>
-                        <p className="font-body text-white text-sm text-center max-w-xs mx-auto">
+                        <p className="font-body text-white text-sm text-center max-w-xs mx-auto pt-20">
                           {_.blurb}
                         </p>
 
-                        <div className="max-w-2xl mx-auto flex py-16">
-                          <div className="space-y-4 ">
-                            <div className="space-y-2 ml-2">
-                              <div className="text-xs font-medium lg:text-sm">
-                                <button
-                                  type="button"
-                                  className="rounded-full inline-flex items-center justify-center whitespace-nowrap border border-transparent bg-red-600 px-4 py-2 text-base font-normal text-white shadow-sm hover:bg-red-700"
-                                >
-                                  <img
-                                    className="-ml-0.5 mr-2 mx-auto h-6 w-6 rounded-lg lg:h-8 lg:w-8 backdrop-filter backdrop-blur-md bg-white"
-                                    src={_.add_to_cart_icon}
-                                    alt=""
-                                  />
-                                  Add to Cart
-                                </button>
-                              </div>
-                            </div>
-                          </div>
+                        <div className="max-w-2xl mx-auto py-16">
                           <div className="space-y-4">
-                            <div className="space-y-2 ml-3">
+                            <div className="space-y-2 ">
                               <div className="text-xs font-medium lg:text-sm">
                                 <button
                                   type="button"
-                                  className="ml-8 rounded-full inline-flex items-center justify-center whitespace-nowrap border border-transparent bg-red-600 px-4 py-2 text-base font-normal text-white shadow-sm hover:bg-red-700"
+                                  className="inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-gray-50 px-4 py-2 text-base font-normal text-red-500 shadow-sm hover:bg-red-600 hover:text-gray-50"
                                 >
                                   <img
                                     className="-ml-0.5 mr-2 mx-auto h-6 w-6 rounded-lg lg:h-8 lg:w-8 backdrop-filter backdrop-blur-md bg-white"
@@ -334,6 +356,23 @@ const ModelLineup = () => {
                                     alt=""
                                   />
                                   Find a Dealer
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="space-y-4 mt-6">
+                            <div className="space-y-2 ">
+                              <div className="text-xs font-medium lg:text-sm">
+                                <button
+                                  type="button"
+                                  className="inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-gray-50 px-4 py-2 text-base font-normal text-red-500 shadow-sm hover:bg-red-600 hover:text-gray-50"
+                                >
+                                  <img
+                                    className="-ml-0.5 mr-2 mx-auto h-6 w-6 rounded-lg lg:h-8 lg:w-8 backdrop-filter backdrop-blur-md bg-white"
+                                    src={_.add_to_cart_icon}
+                                    alt=""
+                                  />
+                                  Learn More
                                 </button>
                               </div>
                             </div>

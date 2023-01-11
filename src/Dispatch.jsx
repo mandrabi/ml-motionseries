@@ -14,6 +14,7 @@ import Masonry from "./_sections/masonry/Masonry";
 import PreFooter from "./_sections/pre_footer/PreFooter";
 import Specifications from "./_components/specifications/Specifications";
 import Downloads from "./_sections/downloads/Downloads";
+import DealerLocator from "./_sections/dealer_locator/DealerLocator";
 
 export const blocks = [
   {
@@ -80,6 +81,12 @@ export const blocks = [
     lazy: true,
     title: "Downloads",
     component: <Downloads />,
+    ref: false,
+  },
+  {
+    lazy: true,
+    title: "Dealer Locator",
+    component: <DealerLocator />,
     ref: false,
   },
   {
